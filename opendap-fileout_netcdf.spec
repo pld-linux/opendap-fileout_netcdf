@@ -5,24 +5,24 @@
 Summary:	OPeNDAP server module to return a NetCDF file for a DAP Data response
 Summary(pl.UTF-8):	Moduł serwera OPeNDAP zwracający pliki NetCDF jako odpowiedź DAP
 Name:		opendap-fileout_netcdf
-Version:	1.2.1
+Version:	1.2.2
 Release:	1
 License:	LGPL v2.1+
 Group:		Daemons
 Source0:	http://www.opendap.org/pub/source/fileout_netcdf-%{version}.tar.gz
-# Source0-md5:	d165b3ebac9b61ad16b1046aa1a3a585
+# Source0-md5:	9824b1386fb9dbd69633c965533dfa26
 URL:		http://opendap.org/
 BuildRequires:	autoconf >= 2.59
 BuildRequires:	automake >= 1:1.10
-%{?with_tests:BuildRequires:	bes >= 3.9.0}
-BuildRequires:	bes-devel >= 3.9.0
-BuildRequires:	libdap-devel >= 3.11.0
+%{?with_tests:BuildRequires:	bes >= 3.13.0}
+BuildRequires:	bes-devel >= 3.13.0
+BuildRequires:	libdap-devel >= 3.13.0
 BuildRequires:	libstdc++-devel
-BuildRequires:	libtool >= 2:1.5
+BuildRequires:	libtool >= 2:2
 BuildRequires:	netcdf-devel >= 4.0.0
 BuildRequires:	pkgconfig
-Requires:	bes >= 3.9.0
-Requires:	libdap >= 3.11.0
+Requires:	bes >= 3.13.0
+Requires:	libdap >= 3.13.0
 Requires:	netcdf >= 4.0.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
