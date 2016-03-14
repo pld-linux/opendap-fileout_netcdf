@@ -6,7 +6,7 @@ Summary:	OPeNDAP server module to return a NetCDF file for a DAP Data response
 Summary(pl.UTF-8):	Moduł serwera OPeNDAP zwracający pliki NetCDF jako odpowiedź DAP
 Name:		opendap-fileout_netcdf
 Version:	1.2.4
-Release:	1
+Release:	2
 License:	LGPL v2.1+
 Group:		Daemons
 Source0:	http://www.opendap.org/pub/source/fileout_netcdf-%{version}.tar.gz
